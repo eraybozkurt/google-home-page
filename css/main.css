@@ -1,0 +1,158 @@
+/* Navbar */
+#head{
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+#head .navbar .items{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+a{
+    text-decoration: none;
+}
+.navbar .items .text .header-txt{
+    color: white;
+    list-style-type: none;
+    display: inline-block;
+    padding: 0.3rem;
+    margin:0 0 0 15px ;
+    font-size: 13px;
+    
+}
+
+.navbar .items .material-symbols-outlined{
+    margin: 0 15px 0 15px;
+    color: white;
+    padding: 8px;
+    cursor: pointer;
+
+}
+.navbar .items .img-icon{
+    padding: 4px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+/* Seciton*/
+
+.menu .google-icon{
+    height: 145px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu .tabs{
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .tabs .search{
+    z-index: 2;
+    position:absolute;
+    margin-right: 400px;
+    
+} */
+input{
+    width: 582px;
+    height: 44px;
+    border-radius: 20px;
+    display: block;
+    border: 1px solid black ;
+    z-index:1;
+}
+
+.choice{
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.choice button{
+    background-color: #303134;
+    color:#e8eaed;
+    height: 36px;
+    border: 1px solid #303134;
+    padding: 10px;
+    margin: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.otherlangs{
+    height: 198.5px;
+}
+.otherlang{
+    height: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: small;
+    color: white;
+}
+.eng{
+    color:#8ab4f8;
+}
+
+.tr{
+    height: 48px;
+    background-color: rgb(23, 23, 23);
+    color: #9aa0a6;
+    font-size: 15px;    
+    border-bottom: 1px solid #3c4043;
+    padding: 15px 30px;
+}
+
+#footer{
+    height: 93px;
+    padding: 0px 20px;
+    background-color: rgb(23, 23, 23);
+
+}
+
+.section1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section1 .notr{
+    color: #999da2;
+    margin: 10px;
+    font-size: 14px;
+}
+
+.section1 img{
+    width: 12.25px;
+    height: 14px;
+}
+
+.section2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+   
+}
+.section2 .ps1, .ps2{
+    list-style-type: none;
+    display: flex;
+    text-decoration: none;
+
+}
+.ps1 .li1, .ps2 .li2{
+    color: #999da2;
+    padding: 15px;
+    font-size: 15px;
+}
+
+
+
+

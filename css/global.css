@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.bg-color{
+    background-color: rgb(32, 33, 36);
+}
+
+.font{
+    font-family: 'Open Sans', sans-serif;
+}
+
